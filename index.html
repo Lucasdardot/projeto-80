@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto 80</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <center>
+
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">
+            lista de convidados
+        </h3>
+
+        <div id="rows">
+
+            <input type="text" placeholder="Insira O Nome" id="name1">
+            <button onclick="submit()" id="submitButton">Enviar</button>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+            <hr>
+
+            <div id="displayName">
+            </div>
+
+            <hr>    
+
+            <div id="Show1">
+                <h3 id="hd1">Lista de convidados</h3>
+                <button onclick="show()" id="show">Mostrar</button>
+                    <p id="p1"></p>
+            </div>
+
+        </div>
+        <hr>
+        <button onclick="sorting()" id="sortButton">
+            Lista organisada
+        </button>
+
+        <div id="sorted"></div>
+
+        </div>
+        <hr>
+       <input type="text" placeholder="Pesquisar Nome" id="s1">&nbsp;
+       <button onclick="searching()" id="srch">Pesquisar</button>
+       <p id="p2"></p>
+        
+    </center>
+
+</body>
+</html>
